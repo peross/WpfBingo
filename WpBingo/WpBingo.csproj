@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F40F46E-3763-426F-8D2D-C57AB05830A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WpBingo</RootNamespace>
+    <AssemblyName>WpBingo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Slike\Loptica1.png" />
+    <Resource Include="Slike\Loptica10.png" />
+    <Resource Include="Slike\Loptica11.png" />
+    <Resource Include="Slike\Loptica12.png" />
+    <Resource Include="Slike\Loptica13.png" />
+    <Resource Include="Slike\Loptica14.png" />
+    <Resource Include="Slike\Loptica15.png" />
+    <Resource Include="Slike\Loptica16.png" />
+    <Resource Include="Slike\Loptica17.png" />
+    <Resource Include="Slike\Loptica18.png" />
+    <Resource Include="Slike\Loptica19.png" />
+    <Resource Include="Slike\Loptica2.png" />
+    <Resource Include="Slike\Loptica20.png" />
+    <Resource Include="Slike\Loptica21.png" />
+    <Resource Include="Slike\Loptica22.png" />
+    <Resource Include="Slike\Loptica23.png" />
+    <Resource Include="Slike\Loptica24.png" />
+    <Resource Include="Slike\Loptica25.png" />
+    <Resource Include="Slike\Loptica26.png" />
+    <Resource Include="Slike\Loptica27.png" />
+    <Resource Include="Slike\Loptica28.png" />
+    <Resource Include="Slike\Loptica29.png" />
+    <Resource Include="Slike\Loptica3.png" />
+    <Resource Include="Slike\Loptica30.png" />
+    <Resource Include="Slike\Loptica31.png" />
+    <Resource Include="Slike\Loptica32.png" />
+    <Resource Include="Slike\Loptica33.png" />
+    <Resource Include="Slike\Loptica34.png" />
+    <Resource Include="Slike\Loptica35.png" />
+    <Resource Include="Slike\Loptica36.png" />
+    <Resource Include="Slike\Loptica37.png" />
+    <Resource Include="Slike\Loptica38.png" />
+    <Resource Include="Slike\Loptica39.png" />
+    <Resource Include="Slike\Loptica4.png" />
+    <Resource Include="Slike\Loptica40.png" />
+    <Resource Include="Slike\Loptica41.png" />
+    <Resource Include="Slike\Loptica42.png" />
+    <Resource Include="Slike\Loptica43.png" />
+    <Resource Include="Slike\Loptica44.png" />
+    <Resource Include="Slike\Loptica45.png" />
+    <Resource Include="Slike\Loptica46.png" />
+    <Resource Include="Slike\Loptica47.png" />
+    <Resource Include="Slike\Loptica48.png" />
+    <Resource Include="Slike\Loptica49.png" />
+    <Resource Include="Slike\Loptica5.png" />
+    <Resource Include="Slike\Loptica6.png" />
+    <Resource Include="Slike\Loptica7.png" />
+    <Resource Include="Slike\Loptica8.png" />
+    <Resource Include="Slike\Loptica9.png" />
+    <None Include="Resources\Loptica1.png" />
+    <None Include="Resources\Loptica2.png" />
+    <None Include="Resources\Loptica3.png" />
+    <None Include="Resources\Loptica4.png" />
+    <None Include="Resources\Loptica5.png" />
+    <None Include="Resources\Loptica6.png" />
+    <None Include="Resources\Loptica7.png" />
+    <None Include="Resources\Loptica8.png" />
+    <None Include="Resources\Loptica9.png" />
+    <None Include="Resources\Loptica10.png" />
+    <None Include="Resources\Loptica11.png" />
+    <None Include="Resources\Loptica12.png" />
+    <None Include="Resources\Loptica13.png" />
+    <None Include="Resources\Loptica14.png" />
+    <None Include="Resources\Loptica15.png" />
+    <None Include="Resources\Loptica16.png" />
+    <None Include="Resources\Loptica17.png" />
+    <None Include="Resources\Loptica18.png" />
+    <None Include="Resources\Loptica19.png" />
+    <None Include="Resources\Loptica20.png" />
+    <None Include="Resources\Loptica21.png" />
+    <None Include="Resources\Loptica22.png" />
+    <None Include="Resources\Loptica23.png" />
+    <None Include="Resources\Loptica24.png" />
+    <None Include="Resources\Loptica25.png" />
+    <None Include="Resources\Loptica26.png" />
+    <None Include="Resources\Loptica27.png" />
+    <None Include="Resources\Loptica28.png" />
+    <None Include="Resources\Loptica29.png" />
+    <None Include="Resources\Loptica30.png" />
+    <None Include="Resources\Loptica31.png" />
+    <None Include="Resources\Loptica32.png" />
+    <None Include="Resources\Loptica33.png" />
+    <None Include="Resources\Loptica34.png" />
+    <None Include="Resources\Loptica35.png" />
+    <None Include="Resources\Loptica36.png" />
+    <None Include="Resources\Loptica37.png" />
+    <None Include="Resources\Loptica38.png" />
+    <None Include="Resources\Loptica39.png" />
+    <None Include="Resources\Loptica40.png" />
+    <None Include="Resources\Loptica41.png" />
+    <None Include="Resources\Loptica42.png" />
+    <None Include="Resources\Loptica43.png" />
+    <None Include="Resources\Loptica44.png" />
+    <None Include="Resources\Loptica45.png" />
+    <None Include="Resources\Loptica46.png" />
+    <None Include="Resources\Loptica47.png" />
+    <None Include="Resources\Loptica48.png" />
+    <None Include="Resources\Loptica49.png" />
+    <None Include="Resources\emoji-background.png" />
+    <Content Include="Video\Bingo.mp4" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

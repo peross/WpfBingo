@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\bin\Debug\WpBingo.exe.config
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\bin\Debug\WpBingo.exe
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\bin\Debug\WpBingo.pdb
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo_Content.g.cs
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo_MarkupCompile.cache
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo_MarkupCompile.lref
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo.g.resources
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo.Properties.Resources.resources
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo.exe
+C:\Users\Admin\source\repos\WpBingoApp\WpBingo\obj\Debug\WpBingo.pdb
